@@ -1,10 +1,7 @@
-![](media/image1.png){width="7.7375in" height="2.4770833333333333in"}
 
--   **Why does my floating point calculation are not accurate some
-    > times?**
+-   **Why does my floating point calculation are not accurate sometimes?**
 
--   **Rounding floating point numbers some times give visible
-    > calculation errors**
+-   **Rounding floating point numbers some times give visible calculation errors**
 
 -   **How numbers represent in computers?**
 
