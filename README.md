@@ -23,7 +23,6 @@ value of the invoice with following conditions:
 
 Let's take few sample values:
 
----------------------------- -----------------------
 Invoice sub total = $150.50
 Discount = $150.50 x 10%
          = $15.05
@@ -34,9 +33,8 @@ Sales tax = $135.45 x 5%
 Total = $135.45 + $6.7725
       = $142.2225
       = $142.22
----------------------------- -----------------------
 
----------------------------- ------------------------
+
 Invoice sub total = $100.05
 Discount = $100.05 x 10%
          = $10.005
