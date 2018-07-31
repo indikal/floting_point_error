@@ -23,29 +23,50 @@ value of the invoice with following conditions:
 
 Let's take few sample values:
 
+-------------------------------------------------------------
 Invoice sub total = $150.50
-Discount = $150.50 x 10%
-         = $15.05
-Total after discount = $150.50 - $15.05
-                     = $135.45
-Sales tax = $135.45 x 5%
-          = $6.7725
-Total = $135.45 + $6.7725
-      = $142.2225
-      = $142.22
 
+Discount = $150.50 x 10%
+
+         = $15.05
+         
+Total after discount = $150.50 - $15.05
+
+                     = $135.45
+                     
+Sales tax = $135.45 x 5%
+
+          = $6.7725
+          
+Total = $135.45 + $6.7725
+
+      = $142.2225
+      
+      = $142.22
+      
+-------------------------------------------------------------
 
 Invoice sub total = $100.05
+
 Discount = $100.05 x 10%
+
          = $10.005
+         
 Total after discount = $100.05 - $10.005
+
                      = $90.045
+                     
 Sales tax = $90.045 x 5%
+
           = $4.50225
+          
 Total = $90.045 + $4.50225
+
       = $94.54725
+      
       = $94.55
----------------------------- ------------------------
+      
+-------------------------------------------------------------
 
 **Let's write a simple Java application (Invoice Application) to salve
 this problem**
