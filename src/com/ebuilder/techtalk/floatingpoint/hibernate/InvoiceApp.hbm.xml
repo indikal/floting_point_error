@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+    
+<hibernate-mapping>
+
+<class 
+    name="com.ebuilder.techtalk.floatingpoint.hibernate.InvoiceApp"
+    table="INVOICEAPP"
+>
+    <id
+        name="invoiceId"
+        type="long"
+        column="INVOICE_ID"
+    >
+        <generator class="sequence">
+            <param name="sequence">SEQ_EMP_ID</param>
+        </generator>
+    </id>
+
+    <property
+        name="subTotal"
+        type="big_decimal"
+        column="SUBTOTAL"
+    >
+    </property>
+    <property
+        name="discount"
+        type="big_decimal"
+        column="DISCOUNT"
+    >
+    </property>
+    <property
+        name="salesTax"
+        type="big_decimal"
+        column="SALES_TAX"
+    >
+    </property>
+    <property
+        name="total"
+        type="big_decimal"
+        column="TOTAL"
+    >
+    </property>
+
+</class>
+</hibernate-mapping>
